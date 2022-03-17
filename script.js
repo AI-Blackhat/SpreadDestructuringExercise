@@ -68,11 +68,11 @@ const bonus = {
   };
 
   // 5a
-
+/*
 const {first, second, third} = bonus;
 const all = [...first, ...second, ...third];
 console.log(all);
-
+*/
 // or
 /*
 const first = bonus.first;
@@ -82,7 +82,7 @@ const all = [...first, ...second, ...third];
 console.log(all);
 */
 // or
-/*
+// /*
 const all = [
   ...bonus.first,
   ...bonus.second,
@@ -102,6 +102,7 @@ console.log(all)
 // 5b
 // const [one, two, three, four, five, six, seven, eight, nine] = all;
 // Each number how has its own variable
+//console.log(one, two, three, four, five, six, seven, eight, nine);
 
 const [one, two, three] = bonus.first;
 const [four, five, six] = bonus.second;
